@@ -13,35 +13,10 @@
 // There is no preloaded code to help you. This is not about coding skills; think before you code
 
 // My solution 
-import java.util.*;
-
 public class Kata {
-  public static String subtractSum (int n) { // method to subtract new sum from inital n value 
-    //return fruit name like "apple"
-    addInput subtract= new addInput();
-    // need to take values from add input and create method to subract the original n by n2
-    
-    
-  }
-  public int addInput { // method to add the indexes of the user input 
-    int sum= 0;
-    int digit;
-    System.out.println("Please enter a number greater than or equal to 10 and less than 10000: ");
-    Scanner input = new Scanner(System.out);
-    int n = input.nextInt();
-    int n2= n;
-    if (n2>=10||n2<10000){
-      digit= n2%10;
-      sum= sum + digit;
-      n2=n2/10;
-      
-  }
-    else{
-      System.out.println("Number entered is invalid. Please try again.");
-    }
-    
-    }
-  public static void main (String[] args){ // main method 
-    
+  public static String subtractSum (int n) {
+    return "apple";
   }
 }
+
+// code was a trick assignment 
